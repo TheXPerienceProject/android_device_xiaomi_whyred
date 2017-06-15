@@ -205,6 +205,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.linkpreview=0 \
     persist.camera.isp.turbo=1
 
+# Property for backup NTP Server
+PRODUCT_PROPERTY_OVERRIDES += \
+   persist.backup.ntpServer="0.pool.ntp.org"
+
 #exif info for camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.exif.make=Xiaomi \
