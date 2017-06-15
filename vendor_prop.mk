@@ -70,3 +70,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
+# Property for backup NTP Server
+PRODUCT_PROPERTY_OVERRIDES += \
+   persist.backup.ntpServer="0.pool.ntp.org"
