@@ -38,7 +38,7 @@ static inline const char* BtmGetDefaultName()
     // Fallback to ro.product.model
     return "";
 }
-#undef PROPERTY_VALUE_MAX
+//#undef PROPERTY_VALUE_MAX
 
 #define BTM_DEF_LOCAL_NAME BtmGetDefaultName()
 #define BLUETOOTH_QTI_SW TRUE
