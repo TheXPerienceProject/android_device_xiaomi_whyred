@@ -238,6 +238,11 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
 DEVICE_DEFINES_OWN_VNDK := true
 
+#Runtime Resource Overlays
+ifneq ($(PRODUCT_ENFORCE_RRO_TARGETS),)
+    JAVA_SDK_ENFORCEMENT_ERROR := false
+endif
+
 # TWRP Support
 ifeq ($(WITH_TWRP),true)
 -include $(DEVICE_PATH)/twrp.mk

@@ -32,7 +32,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-mokee
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+    framework-res SystemUI SettingsProvider Settings Bluetooth
 
 # Permissions
 PRODUCT_COPY_FILES += \
