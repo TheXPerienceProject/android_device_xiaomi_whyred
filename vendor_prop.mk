@@ -66,6 +66,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
-# Maintainer
+
+# Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.mk.maintainer=guaiyihu
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml
