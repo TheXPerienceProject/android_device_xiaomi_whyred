@@ -31,11 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res \
-    SystemUI \
-    SettingsProvider \
-    Settings \
-    Bluetooth
+    framework-res
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -295,10 +291,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_sdm660
-
-# LiveDisplay native
-PRODUCT_PACKAGES += \
-    vendor.mokee.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
