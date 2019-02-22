@@ -132,6 +132,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.mm.enable.prefetch=true \
     vidc.enc.dcvs.extra-buff-count=2
 
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 #
 # system props for the data modules
 #
