@@ -1,0 +1,1 @@
+allow cameraserver vendor_media_sdm660_version_prop:file read;

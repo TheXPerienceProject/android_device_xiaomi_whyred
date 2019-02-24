@@ -1,2 +1,3 @@
 #============= sensors ==============
 allow sensors self:capability dac_override;
+allow sensors sensors:capability net_raw;
