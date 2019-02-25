@@ -1,4 +1,6 @@
 #============= hwservicemanager ==============
+type hal_mlipay_hwservice, hwservice_manager_type, untrusted_app_visible_hwservice;
+
 allow hwservicemanager init:dir search;
 allow hwservicemanager init:file { open read };
 allow hwservicemanager init:process getattr;
