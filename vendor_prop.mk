@@ -355,3 +355,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.mk.maintainer=guaiyihu
+
+#Netflix custom property
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.netflix.bsp_rev=Q660-13149-1
