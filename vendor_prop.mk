@@ -66,7 +66,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
-
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml
@@ -74,3 +73,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Property for backup NTP Server
 PRODUCT_PROPERTY_OVERRIDES += \
    persist.backup.ntpServer="0.pool.ntp.org"
+
+#Netflix custom property
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.netflix.bsp_rev=Q660-13149-1 
