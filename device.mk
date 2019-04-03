@@ -148,7 +148,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
     libxml2 \
-    Snap
+    Camera2
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -173,6 +173,13 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libtinyxml \
     memtrack.sdm660
+
+# Display QTI
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.allocator@1.0 \
+    vendor.qti.hardware.display.composer@1.0 \
+    vendor.display.config@1.4 \
+    vendor.qti.hardware.display.mapper@1.0
 
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service \
