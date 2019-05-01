@@ -29,7 +29,7 @@ $(call inherit-product, vendor/aosp/common.mk)
 TARGET_BOOT_ANIMATION_RES := 2140
 
 # Inherit from custom vendor
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+# $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 PRODUCT_NAME := aosp_whyred
 PRODUCT_BRAND := Xiaomi
@@ -47,3 +47,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
 TARGET_VENDOR := Xiaomi
+
+# Use Gcam and Jelly
+TARGET_USE_GCAM := true
+TARGET_USE_JELLY := true
