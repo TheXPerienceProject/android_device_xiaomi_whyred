@@ -1,4 +1,4 @@
-# 
+#
 # Copyright (C) 2018 The AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -142,7 +142,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
-    libxml2
+    libxml2 \
+    Gcam_Whyred
 
 # CNE
 PRODUCT_PACKAGES += \
